@@ -72,5 +72,28 @@
     <td>&mdash;</td>
   </tr>
 </table>
+<hr>
+<h2>Sample Code Snippet (Node.js)</h2>
+<p>
+  This snippet is an example of Node.js code. It demonstrates a simple 
+  functionality you can run in a Node.js environment.
+</p>
+
+<pre>
+//Node.js snippet #11
+const http = require('http');
+
+http.createServer((req, res) => {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World\n');
+}).listen(3000);
+
+console.log('Server running at http://localhost:3000/');
+</pre>
+
+<p>
+  Source: <a href="https://code.pieces.app/collections" target="_blank">
+  Pieces Code Snippets</a>
+</p>
 <p><a href="myActivity.html">Learn about my favorite activity</a></p>
 </html>
